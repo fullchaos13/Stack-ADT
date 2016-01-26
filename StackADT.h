@@ -3,7 +3,6 @@
 
 #include <stdbool.h>
 
-#define PRIVATE static
 /*
 'int' can be changed to other numeric data types (float, bool, double, etc...) as per need of the user.
 */

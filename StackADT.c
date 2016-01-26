@@ -14,7 +14,7 @@ struct privateData{
     int sizeOfStack;
 };
 
-PRIVATE void terminate(char* message){
+static void terminate(char* message){
 
     printf("%s\n", message);
     exit(EXIT_FAILURE);
